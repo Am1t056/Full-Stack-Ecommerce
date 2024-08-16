@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-slate-100;
+}
+.customshadow{
+box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+/* Admin panel table css */
+.usertable{
+  @apply bg-white;
+}
+.usertable th{
+   @apply border text-base font-medium
+
+}
+.usertable td{
+  @apply border text-base text-center
+}
+
+/* scrollbar hidden */
+.scrollbar-none::-webkit-scrollbar{
+display: none;
+}
