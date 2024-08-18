@@ -42,8 +42,8 @@ const paymentController=async(req,res)=>{
                     quantity:item.quantity
                 }
             }),
-            success_url:`https://full-stack-ecommerce-2-8ju6.onrender.com/success`,
-            cancel_url:`https://full-stack-ecommerce-2-8ju6.onrender.com/cancel`
+            success_url:`${process.env.FRONTEND_URL}/success`,
+            cancel_url:`${process.env.FRONTEND_URL}/cancel`
 
         }
 
