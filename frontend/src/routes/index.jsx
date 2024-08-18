@@ -14,6 +14,7 @@ import SearchProduct from "../Pages/SearchProduct";
 import PaymentSuccess from "../Pages/PaymentSuccess";
 import PaymentCancel from "../Pages/PaymentCancel";
 import OrderPage from "../Pages/OrderPage";
+import AllOrders from "../Pages/AllOrders";
 
 const router=createBrowserRouter([
     {
@@ -74,6 +75,10 @@ const router=createBrowserRouter([
                 },{
                     path:"all-products",
                     element:<AllProducts/>
+                },
+                {
+                    path:"all-order",
+                    element:<AllOrders/>
                 }
             ]
         }
