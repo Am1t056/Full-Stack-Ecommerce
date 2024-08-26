@@ -77,7 +77,7 @@ urlCategoryListInArray.forEach(el=>{
 
   useEffect(()=>{
       fetchData()
-  },[])
+  },[filterCategoryList])
 
   //sorting
   const [sortBy,setSortBy]=useState("")
