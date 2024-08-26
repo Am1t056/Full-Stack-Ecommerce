@@ -42,6 +42,7 @@ urlCategoryListInArray.forEach(el=>{
   }
 
 
+
   const handleSelectCategory=(e)=>{
     const {name,value,checked}=e.target
   setSelectCategory((prev)=>{
@@ -76,7 +77,7 @@ urlCategoryListInArray.forEach(el=>{
 
   useEffect(()=>{
       fetchData()
-  },[filterCategoryList])
+  },[])
 
   //sorting
   const [sortBy,setSortBy]=useState("")
